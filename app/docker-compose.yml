@@ -1,0 +1,4 @@
+version: '3'
+services:
+  back:
+    image: leasagroun/back-image:latest
