@@ -5,6 +5,8 @@ services:
       - "5000:5000"
     environment:
       - CURRENT_ENVIRONMENT=production
+    # volumes:
+    #   - ./logs:/app/logs
   front:
     image: leasagroun/front-image:latest
     ports:
