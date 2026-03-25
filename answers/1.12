@@ -1,1 +1,1 @@
-docker run -d -p 8080:80 -e WS_BACK_URL=http://host.docker.internal:5000 --name front-container leasagroun/front-image:latest
+docker run -d -p 8080:80 -e TR_WS_BACK_URL=http://172.17.0.1:5000 --name front-container leasagroun/front-image:latest
